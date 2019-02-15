@@ -4,45 +4,28 @@
 
 # colors
 nc='\033[0m'
-none='\033[0m'
-color_array[0]=$none
-black='\033[0;30m'
-color_array[1]=$black
-dgray='\033[1;30m'
-color_arrayr[2]=$dgrey
-red='\033[0;31m'
-color_array[3]=$red
-lred='\033[1;31m'
-color_array[4]=$lred
-green='\033[0;32m'
-color_array[5]=$green
-lgreen='\033[1;32m'
-color_array[6]=$lgreen
-brown='\033[0;33m'
-color_array[7]=$brown
-yellow='\033[1;33m'
-yellow='\033[38;5;142m'
-color_array[8]=$yellow
-blue='\033[0;34m'
-color_array[9]=$blue
-lblue='\033[1;34m'
-color_array[10]=$lblue
-purple='\033[0;35m'
-color_array[11]=$purple
-lpurple='\033[1;35m'
-lpurple='\033[38;5;127m'
-color_array[12]=$lpurple
-cyan='\033[0;36m'
-color_array[13]=$cyan
-lcyan='\033[1;36m'
-color_array[14]=$lcyan
-lgrey='\033[0;37m'
-color_array[15]=$lgrey
-white='\033[1;37m'
-color_array[16]=$white
+color_array[0]='\033[0m'        # none
+color_array[1]='\033[0;30m'     # black
+color_array[2]='\033[1;30m'     # dgrey
+color_array[3]='\033[0;31m'     # red
+color_array[4]='\033[1;31m'     # lred
+color_array[5]='\033[0;32m'     # green
+color_array[6]='\033[1;32m'     # lgreen
+color_array[7]='\033[0;33m'     # brown
+color_array[8]='\033[1;33m'     # yellow
+color_array[9]='\033[0;34m'     # blue
+color_array[10]='\033[1;34m'    # lblue
+color_array[11]='\033[0;35m'    # purple
+color_array[12]='\033[38;5;127m' # lpurple
+color_array[12]='\033[1;35m'    # lpurple
+color_array[13]='\033[0;36m'    # cyan
+color_array[14]='\033[1;36m'    # lcyan
+color_array[15]='\033[0;37m'    # lgrey
+color_array[16]='\033[1;37m'    # white
 color_array[17]='\033[38;5;239' # birthdays
 color_array[18]='\033[38;5;69m' # hw
 color_array[19]='\033[38;5;30m' # fainter cyan
+
 
 
 # functions
