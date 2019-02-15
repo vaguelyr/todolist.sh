@@ -2,6 +2,9 @@
 # vague
 # 'some people can make do with just a list of stuff they need to do'
 
+# color reference
+# https://misc.flogisoft.com/bash/tip_colors_and_formatting
+
 # colors
 nc='\033[0m'
 color_array[0]='\033[0m'        # none
